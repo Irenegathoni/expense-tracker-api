@@ -14,21 +14,21 @@
 
 ## Table of Contents
 
-- [Overview] (#-overview)
-- [Key Features] (#-key-features)
-- [Tech Stack] (#-tech-stack)
-- [Quick Start] (#-quick-start)
-- [Installation] (#-installation)
-- [API Documentation] (#-api-documentation)
-- [Usage Examples] (#-usage-examples)
-- [Architecture] (#-architecture)
-- [Security] (#-security)
-- [Testing] (#-testing)
-- [Deployment] (#-deployment)
-- [Roadmap] (#-roadmap)
-- [Contributing] (#-contributing)
-- [License] (#-license)
-- [Contact] (#-contact)
+- [Overview](#-overview)
+- [Key Features](#-key-features)
+- [Tech Stack](#-tech-stack)
+- [Quick Start](#-quick-start)
+- [Installation](#-installation)
+- [API Documentation](#-api-documentation)
+- [Usage Examples](#-usage-examples)
+- [Architecture](#-architecture)
+- [Security](#-security)
+- [Testing](#-testing)
+- [Deployment](#-deployment)
+- [Roadmap](#-roadmap)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Contact](#-contact)
 
 ---
 
@@ -287,7 +287,7 @@ curl -X POST "http://localhost:8000/auth/register" \
   -d '{
     "name": "Njogu",
     "email": "njogu@gmail.com",
-    "password": "secure123"
+    "password": "Testing1!"
   }'
 ```
 
@@ -339,7 +339,7 @@ curl -X POST "http://localhost:8000/expenses" \
     "description": "Grocery Shopping",
     "amount": 85.50,
     "category": "Food",
-    "date": "2024-11-18"
+    "date": "18-11-2025"
   }'
 ```
 
@@ -385,16 +385,16 @@ BASE_URL = "http://localhost:8000"
 
 # Register
 response = requests.post(f"{BASE_URL}/auth/register", json={
-    "name": "Jane Smith",
-    "email": "jane@example.com",
-    "password": "secure456"
+    "name": "Njogu",
+    "email": "njogu@gmail.com",
+    "password": "Testing1!"
 })
 print(response.json())
 
 # Login
 response = requests.post(f"{BASE_URL}/auth/login", json={
     "email": "njogu@gmail.com",
-    "password": "secure456"
+    "password": "Testing1!"
 })
 token = response.json()["access_token"]
 
@@ -768,7 +768,7 @@ Contributions are welcome! Here's how you can help:
 
 ```bash
 # Clone your fork
-git clone https://github.com/YOUR_USERNAME/expense-tracker-api.git
+git clone https://github.com/Irenegathoni/expense-tracker-api.git
 
 # Create virtual environment
 python -m venv venv
