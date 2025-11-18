@@ -8,7 +8,7 @@
 
 > A secure, production-ready REST API for personal financial management. Track expenses, set budgets, and gain insights into your spending habits.
 
-![Project Banner](https://via.placeholder.com/1200x400/4A90E2/FFFFFF?text=Expense+Tracker+API)
+
 
 ---
 
