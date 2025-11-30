@@ -114,7 +114,7 @@ Get up and running in under 5 minutes with Docker:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/expense-tracker-api.git
+git clone https://github.com/Irenegathoni/expense-tracker-api.git
 cd expense-tracker-api
 
 # Start with Docker Compose
@@ -141,7 +141,7 @@ That's it! The database is automatically initialized with tables.
 **1. Clone the repository:**
 
 ```bash
-git clone https://github.com/yourusername/expense-tracker-api.git
+git clone https://github.com/Irenegathoni/expense-tracker-api.git
 cd expense-tracker-api
 ```
 
@@ -179,7 +179,7 @@ docker-compose logs -f api
 **1. Clone and navigate:**
 
 ```bash
-git clone https://github.com/yourusername/expense-tracker-api.git
+git clone https://github.com/Irenegathoni/expense-tracker-api.git
 cd expense-tracker-api
 ```
 
